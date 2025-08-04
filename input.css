@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+    --font-inter: "Inter", sans-serif;
+    --font-poppins: "Poppins", sans-serif;
+    --font-openSans: "Open Sans", sans-serif;
+}
+
+html{@apply scroll-smooth;}
+
+h2{@apply text-4xl font-bold font-poppins;}
+
+.buton-1{ @apply font-medium text-sm bg-neutral-50 hover:bg-neutral-100 border border-neutral-200 duration-300 text-neutral-700 hover:text-neutral-600 rounded p-2; }
+
+.buton-2{ @apply font-semibold text-sm bg-neutral-700 hover:bg-neutral-600 border-2 border-white duration-300 text-neutral-50 hover:text-neutral-100 rounded p-2; }
