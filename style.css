@@ -608,6 +608,13 @@
       }
     }
   }
+  .group-hover\:ml-56 {
+    &:is(:where(.group):hover *) {
+      @media (hover: hover) {
+        margin-left: calc(var(--spacing) * 56);
+      }
+    }
+  }
   .group-hover\:rotate-45 {
     &:is(:where(.group):hover *) {
       @media (hover: hover) {
