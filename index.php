@@ -19,14 +19,16 @@
 </head>
 <body>
 
-  <div data-component="parent" class="relative w-full">
+  <div data-component="parent" class="relative w-full bg-neutral-100">
 
     <!-- COMPONENTS -->
 
     <?php include 'components/header.html'; ?>
     <?php include 'components/entrance.html'; ?>
     <?php include 'components/section.html'; ?>
-    <?php include 'components/information.html'; ?>
+    <?php include 'components/section-information.html'; ?>
+    <?php include 'components/section-cards.html'; ?>
+    <?php include 'components/section-state.html'; ?>
 
     <!-- COMPONENTS -->
 
