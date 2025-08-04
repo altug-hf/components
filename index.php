@@ -25,6 +25,8 @@
 
     <?php include 'components/header.html'; ?>
     <?php include 'components/entrance.html'; ?>
+    <?php include 'components/section.html'; ?>
+    <?php include 'components/information.html'; ?>
 
     <!-- COMPONENTS -->
 
