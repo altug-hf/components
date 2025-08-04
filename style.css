@@ -656,6 +656,11 @@
       line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
   }
+  .md\:flex {
+    @media (width >= 48rem) {
+      display: flex;
+    }
+  }
   .lg\:flex {
     @media (width >= 64rem) {
       display: flex;
@@ -669,6 +674,11 @@
   .lg\:h-28 {
     @media (width >= 64rem) {
       height: calc(var(--spacing) * 28);
+    }
+  }
+  .xl\:flex {
+    @media (width >= 80rem) {
+      display: flex;
     }
   }
   .xl\:h-\[760px\] {
