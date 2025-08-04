@@ -19,7 +19,7 @@
 </head>
 <body>
 
-  <div data-component="parent" class="mx-auto max-w-7xl lg:px-2 lg:py-2">
+  <div data-component="parent" class="w-full">
 
     <!-- COMPONENTS -->
 
