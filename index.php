@@ -19,12 +19,12 @@
 </head>
 <body>
 
-  <div data-component="parent" class="w-full">
+  <div data-component="parent" class="relative w-full">
 
     <!-- COMPONENTS -->
 
     <?php include 'components/header.html'; ?>
-    <?php include 'components/cards.html'; ?>
+    <?php include 'components/entrance.html'; ?>
 
     <!-- COMPONENTS -->
 
