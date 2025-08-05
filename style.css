@@ -702,6 +702,11 @@
       }
     }
   }
+  .sm\:h-\[420px\] {
+    @media (width >= 40rem) {
+      height: 420px;
+    }
+  }
   .sm\:h-\[460px\] {
     @media (width >= 40rem) {
       height: 460px;
@@ -766,6 +771,11 @@
       display: flex;
     }
   }
+  .xl\:h-\[420px\] {
+    @media (width >= 80rem) {
+      height: 420px;
+    }
+  }
   .xl\:h-\[460px\] {
     @media (width >= 80rem) {
       height: 460px;
@@ -825,6 +835,16 @@
     @media (width >= 80rem) {
       font-size: var(--text-7xl);
       line-height: var(--tw-leading, var(--text-7xl--line-height));
+    }
+  }
+  .\32 xl\:pr-24 {
+    @media (width >= 96rem) {
+      padding-right: calc(var(--spacing) * 24);
+    }
+  }
+  .\32 xl\:pl-24 {
+    @media (width >= 96rem) {
+      padding-left: calc(var(--spacing) * 24);
     }
   }
 }
