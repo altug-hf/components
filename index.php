@@ -25,10 +25,15 @@
 
     <?php include 'components/header.html'; ?>
     <?php include 'components/entrance.html'; ?>
+
     <?php include 'components/section.html'; ?>
     <?php include 'components/section-information.html'; ?>
     <?php include 'components/section-cards.html'; ?>
-    <?php include 'components/section-state.html'; ?>
+
+    <?php include 'components/company-information.html'; ?>
+
+    <?php include 'components/footer-state.html'; ?>
+    <?php include 'components/footer.html'; ?>
 
     <!-- COMPONENTS -->
 
