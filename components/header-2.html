@@ -1,6 +1,6 @@
 
 <div class="w-full bg-neutral-100 border-b border-neutral-200">
-<div data-component="item" class="mx-auto flex items-center justify-between h-24 lg:h-28 pl-8 pr-8 w-full max-w-7xl">
+<div data-component="item" class="mx-auto flex items-center justify-between h-24 lg:h-28 pl-8 pr-8 w-full max-w-[1920px]">
 
     <!-- default logo -->
     <a href="#" class="hidden w-64 lg:flex justify-start items-center">
@@ -13,11 +13,20 @@
     </a>
 
     <!-- default navigation -->
-    <ul class="hidden lg:flex gap-6 text-md font-poppins font-semibold text-neutral-700">
-        <li class="duration-300 hover:text-neutral-400"><a href="./index.html">Home</a></li>
-        <li class="duration-300 hover:text-neutral-400"><a href="./about.html">About</a></li>
-        <li class="duration-300 hover:text-neutral-400"><a href="./contact.html">Contact</a></li>
-        <li class="duration-300 hover:text-neutral-400"><a href="./blog.html">Blog</a></li>
+    <ul class="hidden lg:flex text-md font-poppins font-semibold text-neutral-700">
+        <li class="flex h-10 justify-center items-center duration-300 hover:text-neutral-400"><a href="./index.html">Home</a></li>
+        <li class="flex h-10 justify-center items-center duration-300 hover:text-neutral-400 ml-8"><a href="./about.html">About</a></li>
+        <li class="flex h-10 justify-center items-center gap-px duration-300 hover:text-neutral-400 ml-8">
+            <a href="./products.html">Products</a>
+            <span class="flex h-full items-center"><i class='bx bx-chevron-down bx-sm'></i></span>
+        </li>
+
+        <li class="flex h-10 justify-center items-center gap-px duration-300 hover:text-neutral-400 ml-5">
+            <a href="./services.html">Services</a>
+            <span class="flex h-full items-center"><i class='bx bx-chevron-down bx-sm'></i></span>
+        </li>
+        <li class="hidden xl:flex h-10 justify-center items-center duration-300 hover:text-neutral-400 ml-5"><a href="./contact.html">Contact</a></li>
+        <li class="hidden xl:flex h-10 justify-center items-center duration-300 hover:text-neutral-400 ml-8"><a href="./blog.html">Blog</a></li>
     </ul>
 
     <!-- default buton -->
@@ -34,7 +43,7 @@
     </div>
 
     <!-- mobile buton -->
-    <div class="lg:hidden w-28 flex justify-end items-center">
+    <div class="lg:hidden w-28 flex gap-2 justify-end items-center">
         <div data-buton="mobile-open" class="flex h-10 w-10 justify-center items-center cursor-pointer rounded border border-neutral-200">
             <i class='bx bx-chevron-down bx-md'></i>
         </div>
@@ -42,6 +51,9 @@
         <div data-buton="mobile-close" class="hidden h-10 w-10 justify-center items-center cursor-pointer rounded border border-neutral-200">
             <i class='bx bx-x bx-sm'></i>
         </div>
+        <a href="#" class="flex justify-center items-center border duration-300 border-neutral-300 hover:bg-neutral-200 font-semibold w-10 h-10">
+            <span>EN</span>
+        </a>
     </div>
 
     <!-- mobile navigation -->
