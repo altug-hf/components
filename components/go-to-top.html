@@ -1,0 +1,17 @@
+
+<!-- GO TO TOP -->
+<div class="flex justify-center items-center fixed bottom-4 right-4 w-12 h-12 duration-300 invisible opacity-0 bg-neutral-200 rounded-full shadow-lg cursor-pointer hover:bg-neutral-300 z-50" data-component="go-to-top">
+    <i class='bx bx-chevron-up bx-md'></i>
+</div>
+
+<script>
+
+    let go_buton = document.querySelector('[data-component="go-to-top"]');
+
+    addEventListener('scroll', function () {
+        if (window.scrollY > 240) { go_buton.classList.add('go-buton'); } else { go_buton.classList.remove('go-buton'); }
+    });
+
+    go_buton.addEventListener('click', function () { window.scrollTo({ top: 0 }); });
+
+</script>

@@ -37,6 +37,8 @@
 
     <!-- COMPONENTS -->
 
+    <?php include 'components/go-to-top.html'; ?>
+
   </div>
 
 </body>
