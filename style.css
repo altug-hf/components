@@ -464,17 +464,11 @@
   .max-w-96 {
     max-width: calc(var(--spacing) * 96);
   }
-  .max-w-\[1400px\] {
-    max-width: 1400px;
-  }
   .max-w-\[1500px\] {
     max-width: 1500px;
   }
   .max-w-\[1520px\] {
     max-width: 1520px;
-  }
-  .max-w-\[1560px\] {
-    max-width: 1560px;
   }
   .max-w-lg {
     max-width: var(--container-lg);
@@ -556,6 +550,9 @@
   }
   .gap-10 {
     gap: calc(var(--spacing) * 10);
+  }
+  .gap-20 {
+    gap: calc(var(--spacing) * 20);
   }
   .divide-x {
     :where(& > :not(:last-child)) {
@@ -1076,11 +1073,6 @@
       line-height: var(--tw-leading, var(--text-lg--line-height));
     }
   }
-  .lg\:m-0 {
-    @media (width >= 64rem) {
-      margin: calc(var(--spacing) * 0);
-    }
-  }
   .lg\:mt-3 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 3);
@@ -1101,11 +1093,6 @@
       display: inline;
     }
   }
-  .lg\:h-20 {
-    @media (width >= 64rem) {
-      height: calc(var(--spacing) * 20);
-    }
-  }
   .lg\:h-24 {
     @media (width >= 64rem) {
       height: calc(var(--spacing) * 24);
@@ -1116,29 +1103,14 @@
       height: calc(var(--spacing) * 28);
     }
   }
-  .lg\:h-44 {
-    @media (width >= 64rem) {
-      height: calc(var(--spacing) * 44);
-    }
-  }
   .lg\:max-w-sm {
     @media (width >= 64rem) {
       max-width: var(--container-sm);
     }
   }
-  .lg\:flex-col-reverse {
-    @media (width >= 64rem) {
-      flex-direction: column-reverse;
-    }
-  }
   .lg\:flex-row {
     @media (width >= 64rem) {
       flex-direction: row;
-    }
-  }
-  .lg\:gap-0 {
-    @media (width >= 64rem) {
-      gap: calc(var(--spacing) * 0);
     }
   }
   .lg\:border-l {
@@ -1170,16 +1142,6 @@
   .xl\:max-w-lg {
     @media (width >= 80rem) {
       max-width: var(--container-lg);
-    }
-  }
-  .xl\:max-w-sm {
-    @media (width >= 80rem) {
-      max-width: var(--container-sm);
-    }
-  }
-  .xl\:flex-col {
-    @media (width >= 80rem) {
-      flex-direction: column;
     }
   }
   .xl\:flex-row {
@@ -1222,12 +1184,6 @@
   .\32 xl\:pl-24 {
     @media (width >= 96rem) {
       padding-left: calc(var(--spacing) * 24);
-    }
-  }
-  .\32 xl\:text-base {
-    @media (width >= 96rem) {
-      font-size: var(--text-base);
-      line-height: var(--tw-leading, var(--text-base--line-height));
     }
   }
 }
