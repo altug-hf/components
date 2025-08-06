@@ -32,7 +32,7 @@
 
     <?php include 'components/company-information.html'; ?>
 
-    <?php include 'components/footer-state.html'; ?>
+    <?php // include 'components/footer-state.html'; ?>
     <?php include 'components/footer.html'; ?>
 
     <!-- COMPONENTS -->
