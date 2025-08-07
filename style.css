@@ -24,6 +24,7 @@
     --color-neutral-700: oklch(37.1% 0 0);
     --color-neutral-800: oklch(26.9% 0 0);
     --color-neutral-900: oklch(20.5% 0 0);
+    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --container-sm: 24rem;
@@ -418,6 +419,9 @@
   .h-\[680px\] {
     height: 680px;
   }
+  .h-fit {
+    height: fit-content;
+  }
   .h-full {
     height: 100%;
   }
@@ -603,6 +607,11 @@
       border-color: var(--color-neutral-300);
     }
   }
+  .divide-neutral-800 {
+    :where(& > :not(:last-child)) {
+      border-color: var(--color-neutral-800);
+    }
+  }
   .overflow-hidden {
     overflow: hidden;
   }
@@ -630,6 +639,10 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 2px;
   }
+  .border-r {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 1px;
+  }
   .border-b {
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
@@ -646,6 +659,9 @@
     border-left-style: var(--tw-border-style);
     border-left-width: 8px;
   }
+  .border-black {
+    border-color: var(--color-black);
+  }
   .border-neutral-200 {
     border-color: var(--color-neutral-200);
   }
@@ -660,6 +676,9 @@
   }
   .border-neutral-700 {
     border-color: var(--color-neutral-700);
+  }
+  .border-neutral-800 {
+    border-color: var(--color-neutral-800);
   }
   .border-orange-600 {
     border-color: var(--color-orange-600);
@@ -1277,6 +1296,11 @@
       padding-right: calc(var(--spacing) * 8);
     }
   }
+  .md\:pr-9 {
+    @media (width >= 48rem) {
+      padding-right: calc(var(--spacing) * 9);
+    }
+  }
   .md\:pr-10 {
     @media (width >= 48rem) {
       padding-right: calc(var(--spacing) * 10);
@@ -1285,6 +1309,11 @@
   .md\:pl-8 {
     @media (width >= 48rem) {
       padding-left: calc(var(--spacing) * 8);
+    }
+  }
+  .md\:pl-9 {
+    @media (width >= 48rem) {
+      padding-left: calc(var(--spacing) * 9);
     }
   }
   .md\:pl-10 {
@@ -1597,9 +1626,19 @@
       max-width: var(--container-2xl);
     }
   }
+  .\32 xl\:max-w-3xl {
+    @media (width >= 96rem) {
+      max-width: var(--container-3xl);
+    }
+  }
   .\32 xl\:max-w-6xl {
     @media (width >= 96rem) {
       max-width: var(--container-6xl);
+    }
+  }
+  .\32 xl\:max-w-7xl {
+    @media (width >= 96rem) {
+      max-width: var(--container-7xl);
     }
   }
   .\32 xl\:max-w-md {

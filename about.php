@@ -26,8 +26,8 @@
     <?php include 'components/header-2.html'; ?>
     <?php include 'components/about-section-1.html'; ?>
     <?php include 'components/about-section-2.html'; ?>
+    <?php include 'components/about-section-3.html'; ?>
 
-    <?php include 'components/section.html'; ?>
     <?php include 'components/section-information.html'; ?>
     <?php include 'components/section-cards.html'; ?>
 
