@@ -23,7 +23,7 @@
 
     <!-- COMPONENTS -->
 
-    <?php include 'components/header-3.html'; ?>
+    <?php include 'components/header-4.html'; ?>
     <?php include 'components/entrance.html'; ?>
 
     <?php include 'components/section.html'; ?>
