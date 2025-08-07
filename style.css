@@ -682,6 +682,9 @@
   .border-neutral-400 {
     border-color: var(--color-neutral-400);
   }
+  .border-neutral-500 {
+    border-color: var(--color-neutral-500);
+  }
   .border-neutral-600 {
     border-color: var(--color-neutral-600);
   }
@@ -825,6 +828,9 @@
   }
   .pb-12 {
     padding-bottom: calc(var(--spacing) * 12);
+  }
+  .pl-1 {
+    padding-left: calc(var(--spacing) * 1);
   }
   .pl-2 {
     padding-left: calc(var(--spacing) * 2);
@@ -1734,10 +1740,28 @@
       line-height: var(--tw-leading, var(--text-6xl--line-height));
     }
   }
+  .\32 xl\:text-base {
+    @media (width >= 96rem) {
+      font-size: var(--text-base);
+      line-height: var(--tw-leading, var(--text-base--line-height));
+    }
+  }
   .\32 xl\:text-sm {
     @media (width >= 96rem) {
       font-size: var(--text-sm);
       line-height: var(--tw-leading, var(--text-sm--line-height));
+    }
+  }
+  .\32 xl\:font-normal {
+    @media (width >= 96rem) {
+      --tw-font-weight: var(--font-weight-normal);
+      font-weight: var(--font-weight-normal);
+    }
+  }
+  .\32 xl\:font-semibold {
+    @media (width >= 96rem) {
+      --tw-font-weight: var(--font-weight-semibold);
+      font-weight: var(--font-weight-semibold);
     }
   }
 }
