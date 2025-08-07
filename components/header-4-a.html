@@ -1,6 +1,6 @@
 
 <div class="relative w-full bg-neutral-100">
-<div class="mx-auto flex items-center justify-between bg-[#191919] border-b border-neutral-700 h-28 pl-6 pr-6 md:pl-16 md:pr-16 w-full max-w-[1920px]">
+<div class="mx-auto flex items-center justify-between bg-[#191919] border-b border-neutral-700 h-28 pl-6 pr-6 md:pl-8 md:pr-8 lg:pl-16 lg:pr-16 w-full max-w-[1920px]">
 
     <div class="flex h-full">
         <!-- default logo -->
@@ -52,13 +52,14 @@
         
     </div>
 
+    <div class="flex gap-2">
     <div class="flex gap-1 relative justify-center items-center duration-300 font-semibold pr-1 h-12 group">
         
         <span class="relative flex overflow-hidden h-8 w-8 rounded-4xl">
             <img class="object-cover" src="./files/images/flags/united-kingdom.svg" alt="">
         </span>
 
-        <div class="flex items-center h-full">
+        <div class="hidden lg:flex items-center h-full">
         <span class="pl-3 text-neutral-100">English</span>
         <span class="flex mt-1 h-full items-center text-white"><i class='bx bx-chevron-down bx-sm'></i></span>
 
@@ -72,6 +73,35 @@
 
         </div>
         </div>
+    </div>
+
+    <!-- mobile buton -->
+    <div class="lg:hidden w-full flex gap-2 justify-end items-center">
+
+        <div data-buton="mobile-open" class="flex h-10 w-10 justify-center items-center cursor-pointer rounded bg-neutral-800 text-neutral-100 border border-neutral-700">
+            <i class='bx bx-chevron-down bx-md'></i>
+        </div>
+
+        <div data-buton="mobile-close" class="hidden h-10 w-10 justify-center items-center cursor-pointer rounded bg-neutral-800 text-neutral-100 border border-neutral-700">
+            <i class='bx bx-x bx-sm'></i>
+        </div>
+
+    </div>
+
+    <!-- mobile navigation -->
+    <div data-mobile="navigation" class="absolute opacity-0 invisible lg:hidden duration-300 z-50 w-60 top-24 right-6 border border-neutral-200 bg-neutral-100 rounded p-4">
+
+        <div class="flex flex-col font-poppins gap-2">
+
+            <a class="buton-1" href="">Home</a>
+            <a class="buton-1" href="">About</a>
+            <a class="buton-1" href="">Contact</a>
+            <a class="buton-1" href="">Blog</a>
+
+            <a class="buton-2" href="">Contact Us</a>
+        </div>
+
+    </div>
     </div>
 
 </div>
