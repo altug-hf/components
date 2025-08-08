@@ -407,6 +407,9 @@
   .h-52 {
     height: calc(var(--spacing) * 52);
   }
+  .h-60 {
+    height: calc(var(--spacing) * 60);
+  }
   .h-64 {
     height: calc(var(--spacing) * 64);
   }
@@ -490,6 +493,9 @@
   }
   .w-48 {
     width: calc(var(--spacing) * 48);
+  }
+  .w-52 {
+    width: calc(var(--spacing) * 52);
   }
   .w-60 {
     width: calc(var(--spacing) * 60);
@@ -1377,6 +1383,11 @@
       margin-top: calc(var(--spacing) * 3);
     }
   }
+  .lg\:mt-8 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 8);
+    }
+  }
   .lg\:block {
     @media (width >= 64rem) {
       display: block;
@@ -1397,6 +1408,11 @@
       display: inline;
     }
   }
+  .lg\:h-16 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 16);
+    }
+  }
   .lg\:h-24 {
     @media (width >= 64rem) {
       height: calc(var(--spacing) * 24);
@@ -1407,6 +1423,11 @@
       height: calc(var(--spacing) * 28);
     }
   }
+  .lg\:h-64 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 64);
+    }
+  }
   .lg\:h-\[82px\] {
     @media (width >= 64rem) {
       height: 82px;
@@ -1415,6 +1436,11 @@
   .lg\:h-\[360px\] {
     @media (width >= 64rem) {
       height: 360px;
+    }
+  }
+  .lg\:w-60 {
+    @media (width >= 64rem) {
+      width: calc(var(--spacing) * 60);
     }
   }
   .lg\:max-w-52 {
@@ -1455,6 +1481,11 @@
   .lg\:gap-0 {
     @media (width >= 64rem) {
       gap: calc(var(--spacing) * 0);
+    }
+  }
+  .lg\:gap-6 {
+    @media (width >= 64rem) {
+      gap: calc(var(--spacing) * 6);
     }
   }
   .lg\:border-l {
@@ -1544,6 +1575,11 @@
       height: 780px;
     }
   }
+  .xl\:w-60 {
+    @media (width >= 80rem) {
+      width: calc(var(--spacing) * 60);
+    }
+  }
   .xl\:w-80 {
     @media (width >= 80rem) {
       width: calc(var(--spacing) * 80);
@@ -1569,6 +1605,11 @@
       flex-direction: row;
     }
   }
+  .xl\:gap-6 {
+    @media (width >= 80rem) {
+      gap: calc(var(--spacing) * 6);
+    }
+  }
   .xl\:p-0 {
     @media (width >= 80rem) {
       padding: calc(var(--spacing) * 0);
@@ -1582,6 +1623,11 @@
   .xl\:pr-8 {
     @media (width >= 80rem) {
       padding-right: calc(var(--spacing) * 8);
+    }
+  }
+  .xl\:pl-6 {
+    @media (width >= 80rem) {
+      padding-left: calc(var(--spacing) * 6);
     }
   }
   .xl\:pl-8 {
