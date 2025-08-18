@@ -26,8 +26,9 @@
     <?php include 'webratik/header-2.html'; ?>
 
     <?php include 'webratik/entrance-2.html'; ?>
+    <?php include 'webratik/about.html'; ?>
 
-    <?php include 'components/section.html'; ?>
+    <?php include 'webratik/section.html'; ?>
     <?php include 'components/section-information.html'; ?>
     <?php include 'components/section-cards.html'; ?>
 
