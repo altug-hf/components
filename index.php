@@ -32,7 +32,9 @@
 
     <?php // include 'webratik/section.html'; ?>
 
-    <?php include 'webratik/section-cards.html'; ?>
+    <?php include 'webratik/section-news.html'; ?>
+
+    <?php include 'webratik/section-numbers.html'; ?>
 
     <?php include 'webratik/section-information.html'; ?>
 
