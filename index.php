@@ -28,11 +28,13 @@
     <?php include 'webratik/entrance-2.html'; ?>
     <?php include 'webratik/about.html'; ?>
 
-    <?php include 'webratik/section.html'; ?>
-    <?php include 'components/section-information.html'; ?>
-    <?php include 'components/section-cards.html'; ?>
+    <?php include 'webratik/company-information.html'; ?>
 
-    <?php include 'components/company-information.html'; ?>
+    <?php // include 'webratik/section.html'; ?>
+
+    <?php include 'webratik/section-cards.html'; ?>
+
+    <?php include 'webratik/section-information.html'; ?>
 
     <?php include 'components/footer-state.html'; ?>
     <?php include 'components/footer.html'; ?>
