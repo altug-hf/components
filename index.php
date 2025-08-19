@@ -34,12 +34,13 @@
 
     <?php include 'webratik/section-news.html'; ?>
 
-    <?php include 'webratik/section-numbers.html'; ?>
+    <?php // include 'webratik/section-numbers.html'; ?>
 
     <?php include 'webratik/section-information.html'; ?>
+    <?php include 'webratik/brands.html'; ?>
 
-    <?php include 'components/footer-state.html'; ?>
-    <?php include 'components/footer.html'; ?>
+    <?php include 'webratik/footer-state.html'; ?>
+    <?php include 'webratik/footer.html'; ?>
 
     <!-- COMPONENTS -->
 
