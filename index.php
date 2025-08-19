@@ -37,7 +37,7 @@
 
     <?php // include 'webratik/section.html'; ?>
 
-    <?php include 'webratik/section-news.html'; ?>
+    <?php include 'webratik/news-slider.html'; ?>
 
     <?php // include 'webratik/section-numbers.html'; ?>
 
