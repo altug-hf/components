@@ -14,6 +14,11 @@
   <link rel="stylesheet" href="./files/images/icons/fonts/transformations.min.css">
   <!-- icons -->
 
+  <! -- Splide Slider 4.13 -->
+  <link rel="stylesheet" href="../files/slider/css/splide.min.css">
+  <link rel="stylesheet" href="../files/slider/css/themes/splide-default.min.css">
+  <! -- Splide Slider 4.13 -->
+
   <title>HTML Components</title>
 
 </head>
@@ -56,3 +61,6 @@
   // dynamic
 
 </script>
+
+<!-- Splide JavaScript -->
+<script src="../files/slider/js/splide.min.js"></script>
