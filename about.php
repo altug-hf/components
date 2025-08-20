@@ -23,8 +23,7 @@
 
     <!-- COMPONENTS -->
 
-    <?php include 'components/header-4-a.html'; ?>
-    <?php include 'components/header-4-b.html'; ?>
+    <?php include 'webratik/header-1.html'; ?>
 
     <?php include 'components/about-section-1.html'; ?>
     <?php include 'components/about-section-2.html'; ?>

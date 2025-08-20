@@ -1699,6 +1699,21 @@
       max-width: calc(var(--spacing) * 52);
     }
   }
+  .lg\:max-w-\[1360px\] {
+    @media (width >= 64rem) {
+      max-width: 1360px;
+    }
+  }
+  .lg\:max-w-\[1400px\] {
+    @media (width >= 64rem) {
+      max-width: 1400px;
+    }
+  }
+  .lg\:max-w-\[1460px\] {
+    @media (width >= 64rem) {
+      max-width: 1460px;
+    }
+  }
   .lg\:max-w-\[1560px\] {
     @media (width >= 64rem) {
       max-width: 1560px;
