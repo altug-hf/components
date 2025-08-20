@@ -12,7 +12,7 @@
 
     <div class="relative flex justify-center items-center gap-6 w-full">
 
-        <div class="flex z-30 absolute left-0 md:relative justify-center items-center cursor-pointer h-32 w-12 text-white bg-orange-600 duration-300 hover:bg-orange-500">
+        <div id="previous-arrow" class="flex z-30 absolute left-0 md:relative justify-center items-center cursor-pointer h-32 w-12 text-white bg-orange-600 duration-300 hover:bg-orange-500">
             <i class='bx bx-arrow-left-stroke bx-sm'></i>
         </div>
 
@@ -44,7 +44,7 @@
 
         </div>
 
-        <div class="flex z-30 absolute right-0 md:relative justify-center items-center cursor-pointer h-32 w-12 text-white bg-orange-600 duration-300 hover:bg-orange-500">
+        <div id="next-arrow" class="flex z-30 absolute right-0 md:relative justify-center items-center cursor-pointer h-32 w-12 text-white bg-orange-600 duration-300 hover:bg-orange-500">
             <i class='bx bx-arrow-right-stroke bx-sm'></i> 
         </div>
     </div>
@@ -54,18 +54,29 @@
 <script>
 
     document.addEventListener('DOMContentLoaded', function() {
-        new Splide('#news-slider', {
+        const splide = new Splide('#news-slider', {
 
             type: 'loop',
             autoplay: true,
             interval: 4000,
-            arrows: true,
+            arrows: false,
             pagination: false,
             drag: true,
             perPage: 3,
             perMove: 1
 
         }).mount();
+
+        const previousArrow = document.getElementById('previous-arrow');
+        const nextArrow = document.getElementById('next-arrow');
+
+        previousArrow.addEventListener('click', function() {
+            splide.go('<');
+        });
+
+        nextArrow.addEventListener('click', function() {
+            splide.go('>');
+        });
     });
 
 </script>
