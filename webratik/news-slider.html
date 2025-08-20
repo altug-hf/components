@@ -18,8 +18,8 @@
 
         <div class="flex w-full max-w-7xl gap-8">
 
-            <div class="slider-container">
-                <div class="splide w-full max-w-7xl" id="news-slider">
+            <div class="slider-container w-full max-w-7xl">
+                <div class="splide" id="news-slider">
                     <div class="splide__track">
                         <ul class="splide__list">
                             
@@ -184,6 +184,15 @@
             perPage: 3,
             perMove: 1,
             gap: '1.5rem',
+
+            breakpoints: {
+                1600: {
+                    perPage: 2,
+                },
+                768: {
+                    perPage: 1,
+                },
+            }
 
         }).mount();
 
