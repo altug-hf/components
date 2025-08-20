@@ -44,6 +44,8 @@
     <?php include 'webratik/section-information.html'; ?>
     <?php include 'webratik/brands.html'; ?>
 
+    <?php include 'webratik/contact-form.html'; ?>
+
     <?php include 'webratik/footer-state.html'; ?>
     <?php include 'webratik/footer.html'; ?>
 
