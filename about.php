@@ -23,9 +23,9 @@
 
     <!-- COMPONENTS -->
 
-    <?php include 'webratik/header-1.html'; ?>
+    <?php include 'webratik/header-2.html'; ?>
 
-    <?php include 'components/about-section-1.html'; ?>
+    <?php include 'webratik/about-section-1.html'; ?>
     <?php include 'components/about-section-2.html'; ?>
     <?php include 'components/about-section-3.html'; ?>
     <?php include 'components/about-section-4.html'; ?>
