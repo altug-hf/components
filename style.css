@@ -1317,6 +1317,11 @@
       margin-top: calc(var(--spacing) * 8);
     }
   }
+  .sm\:mt-16 {
+    @media (width >= 40rem) {
+      margin-top: calc(var(--spacing) * 16);
+    }
+  }
   .sm\:hidden {
     @media (width >= 40rem) {
       display: none;
@@ -1392,6 +1397,16 @@
   .md\:mt-20 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 20);
+    }
+  }
+  .md\:mt-24 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 24);
+    }
+  }
+  .md\:mt-28 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 28);
     }
   }
   .md\:mb-4 {
