@@ -35,7 +35,7 @@
     <?php include 'webratik/about/about-section-3.html'; ?>
     <?php include 'webratik/about/about-section-4.html'; ?>
 
-    <?php include 'webratik/about/news-slider.html'; ?>
+    <?php include 'webratik/about/products-slider.html'; ?>
 
     <?php include 'webratik/about/company-information.html'; ?>
 
