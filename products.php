@@ -28,19 +28,19 @@
 
     <!-- COMPONENTS -->
 
-    <?php include 'webratik/header-2.html'; ?>
+    <?php include 'webratik/products/header-2.html'; ?>
 
-    <?php include 'webratik/about-section-1.html'; ?>
-    <?php include 'components/about-section-2.html'; ?>
-    <?php include 'components/about-section-3.html'; ?>
-    <?php include 'components/about-section-4.html'; ?>
+    <?php include 'webratik/products/about-section-1.html'; ?>
+    <?php include 'webratik/products/about-section-2.html'; ?>
+    <?php include 'webratik/products/about-section-3.html'; ?>
+    <?php include 'webratik/products/about-section-4.html'; ?>
 
-    <?php include 'webratik/news-slider.html'; ?>
+    <?php include 'webratik/products/news-slider.html'; ?>
 
-    <?php include 'components/company-information.html'; ?>
+    <?php include 'webratik/products/company-information.html'; ?>
 
-    <?php include 'components/footer-state.html'; ?>
-    <?php include 'components/footer.html'; ?>
+    <?php include 'webratik/products/footer-state.html'; ?>
+    <?php include 'webratik/products/footer.html'; ?>
 
     <!-- COMPONENTS -->
 
