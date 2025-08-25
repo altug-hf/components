@@ -30,17 +30,17 @@
 
     <?php include 'webratik/header-2.html'; ?>
 
-    <?php include 'webratik/about-section-1.html'; ?>
-    <?php include 'components/about-section-2.html'; ?>
-    <?php include 'components/about-section-3.html'; ?>
-    <?php include 'components/about-section-4.html'; ?>
+    <?php include 'webratik/about/about-section-1.html'; ?>
+    <?php include 'webratik/about/about-section-2.html'; ?>
+    <?php include 'webratik/about/about-section-3.html'; ?>
+    <?php include 'webratik/about/about-section-4.html'; ?>
 
-    <?php include 'webratik/news-slider.html'; ?>
+    <?php include 'webratik/about/news-slider.html'; ?>
 
-    <?php include 'components/company-information.html'; ?>
+    <?php include 'webratik/about/company-information.html'; ?>
 
-    <?php include 'components/footer-state.html'; ?>
-    <?php include 'components/footer.html'; ?>
+    <?php include 'webratik/about/footer-state.html'; ?>
+    <?php include 'webratik/about/footer.html'; ?>
 
     <!-- COMPONENTS -->
 

@@ -28,26 +28,26 @@
 
     <!-- COMPONENTS -->
 
-    <?php include 'webratik/header-2.html'; ?>
+    <?php include 'webratik/home/header-2.html'; ?>
 
-    <?php include 'webratik/entrance-2.html'; ?>
-    <?php include 'webratik/about.html'; ?>
+    <?php include 'webratik/home/entrance-2.html'; ?>
+    <?php include 'webratik/home/about.html'; ?>
 
-    <?php include 'webratik/company-information.html'; ?>
+    <?php include 'webratik/home/company-information.html'; ?>
 
     <?php // include 'webratik/section.html'; ?>
 
-    <?php include 'webratik/news-slider.html'; ?>
+    <?php include 'webratik/home/news-slider.html'; ?>
 
     <?php // include 'webratik/section-numbers.html'; ?>
 
-    <?php include 'webratik/section-information.html'; ?>
-    <?php include 'webratik/brands.html'; ?>
+    <?php include 'webratik/home/section-information.html'; ?>
+    <?php include 'webratik/home/brands.html'; ?>
 
-    <?php include 'webratik/contact-form.html'; ?>
+    <?php include 'webratik/home/contact-form.html'; ?>
 
-    <?php include 'webratik/footer-state.html'; ?>
-    <?php include 'webratik/footer.html'; ?>
+    <?php include 'webratik/home/footer-state.html'; ?>
+    <?php include 'webratik/home/footer.html'; ?>
 
     <!-- COMPONENTS -->
 
