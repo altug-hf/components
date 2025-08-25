@@ -536,6 +536,9 @@
   .w-52 {
     width: calc(var(--spacing) * 52);
   }
+  .w-56 {
+    width: calc(var(--spacing) * 56);
+  }
   .w-60 {
     width: calc(var(--spacing) * 60);
   }
@@ -578,11 +581,17 @@
   .max-w-72 {
     max-width: calc(var(--spacing) * 72);
   }
+  .max-w-80 {
+    max-width: calc(var(--spacing) * 80);
+  }
   .max-w-\[1420px\] {
     max-width: 1420px;
   }
   .max-w-\[1460px\] {
     max-width: 1460px;
+  }
+  .max-w-\[1480px\] {
+    max-width: 1480px;
   }
   .max-w-\[1500px\] {
     max-width: 1500px;
@@ -881,6 +890,9 @@
   }
   .p-2 {
     padding: calc(var(--spacing) * 2);
+  }
+  .p-3 {
+    padding: calc(var(--spacing) * 3);
   }
   .p-4 {
     padding: calc(var(--spacing) * 4);
@@ -1269,6 +1281,20 @@
     &:hover {
       @media (hover: hover) {
         background-color: var(--color-neutral-300);
+      }
+    }
+  }
+  .hover\:bg-neutral-600 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-neutral-600);
+      }
+    }
+  }
+  .hover\:bg-neutral-700 {
+    &:hover {
+      @media (hover: hover) {
+        background-color: var(--color-neutral-700);
       }
     }
   }

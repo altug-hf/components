@@ -28,14 +28,14 @@
 
     <!-- COMPONENTS -->
 
-    <?php include 'webratik/products/header-2.html'; ?>
+    <?php include 'webratik/product/header-2.html'; ?>
 
-    <?php include 'webratik/products/about-section-1.html'; ?>
+    <?php include 'webratik/product/about-section-1.html'; ?>
 
-    <?php include 'webratik/products/section.html';?>
+    <?php include 'webratik/product/section.html';?>
 
-    <?php include 'webratik/products/footer-state.html'; ?>
-    <?php include 'webratik/products/footer.html'; ?>
+    <?php include 'webratik/product/footer-state.html'; ?>
+    <?php include 'webratik/product/footer.html'; ?>
 
     <!-- COMPONENTS -->
 
