@@ -28,7 +28,7 @@
 
     <!-- COMPONENTS -->
 
-    <?php include 'webratik/home/header-2.html'; ?>
+    <?php include 'webratik/header-2.html'; ?>
 
     <?php include 'webratik/home/entrance-2.html'; ?>
     <?php include 'webratik/home/about.html'; ?>
@@ -46,8 +46,8 @@
 
     <?php include 'webratik/home/contact-form.html'; ?>
 
-    <?php include 'webratik/home/footer-state.html'; ?>
-    <?php include 'webratik/home/footer.html'; ?>
+    <?php include 'webratik/footer-state.html'; ?>
+    <?php include 'webratik/footer.html'; ?>
 
     <!-- COMPONENTS -->
 

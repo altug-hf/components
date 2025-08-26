@@ -39,8 +39,8 @@
 
     <?php include 'webratik/about/company-information.html'; ?>
 
-    <?php include 'webratik/about/footer-state.html'; ?>
-    <?php include 'webratik/about/footer.html'; ?>
+    <?php include 'webratik/footer-state.html'; ?>
+    <?php include 'webratik/footer.html'; ?>
 
     <!-- COMPONENTS -->
 
