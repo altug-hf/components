@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link href="./style.css" rel="stylesheet">
+  <link href="./files/style.css" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="./files/fav/note.png" sizes="32x32">
 
   <!-- icons -->
