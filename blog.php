@@ -30,7 +30,7 @@
 
     <?php include 'webratik/header-2.html'; ?>
 
-    <?php include 'webratik/blog/about-section-1.html'; ?>
+    <?php include 'webratik/blog/section-1.html'; ?>
 
     <?php include 'webratik/blog/section.html';?>
 
