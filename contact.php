@@ -30,21 +30,12 @@
 
     <?php include 'webratik/header-2.html'; ?>
 
-    <?php include 'webratik/home/entrance-2.html'; ?>
-    <?php include 'webratik/home/about.html'; ?>
+    <?php include 'webratik/contact/section-1.html'; ?>
+    <?php include 'webratik/contact/map.html'; ?>
 
-    <?php include 'webratik/home/company-information.html'; ?>
+    <?php include 'webratik/contact/company-information.html'; ?>
 
-    <?php // include 'webratik/section.html'; ?>
-
-    <?php include 'webratik/home/news-slider.html'; ?>
-
-    <?php // include 'webratik/section-numbers.html'; ?>
-
-    <?php include 'webratik/home/section-information.html'; ?>
-    <?php include 'webratik/home/brands.html'; ?>
-
-    <?php include 'webratik/home/contact-form.html'; ?>
+    <?php include 'webratik/contact/contact-form.html'; ?>
 
     <?php include 'webratik/footer-state.html'; ?>
     <?php include 'webratik/footer.html'; ?>
