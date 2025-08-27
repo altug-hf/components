@@ -1423,6 +1423,11 @@
       margin-top: calc(var(--spacing) * 3);
     }
   }
+  .md\:mt-4 {
+    @media (width >= 48rem) {
+      margin-top: calc(var(--spacing) * 4);
+    }
+  }
   .md\:mt-6 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 6);
@@ -1461,6 +1466,11 @@
   .md\:mt-24 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 24);
+    }
+  }
+  .md\:mb-0 {
+    @media (width >= 48rem) {
+      margin-bottom: calc(var(--spacing) * 0);
     }
   }
   .md\:mb-4 {
@@ -1740,6 +1750,11 @@
       width: 560px;
     }
   }
+  .lg\:max-w-4xl {
+    @media (width >= 64rem) {
+      max-width: var(--container-4xl);
+    }
+  }
   .lg\:max-w-52 {
     @media (width >= 64rem) {
       max-width: calc(var(--spacing) * 52);
@@ -1892,6 +1907,11 @@
   .xl\:mt-14 {
     @media (width >= 80rem) {
       margin-top: calc(var(--spacing) * 14);
+    }
+  }
+  .xl\:mt-16 {
+    @media (width >= 80rem) {
+      margin-top: calc(var(--spacing) * 16);
     }
   }
   .xl\:mb-4 {
