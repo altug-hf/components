@@ -30,9 +30,9 @@
 
     <?php include 'webratik/header-2.html'; ?>
 
-    <?php include 'webratik/blog/section-1.html'; ?>
+    <?php include 'webratik/read/section-1.html'; ?>
 
-    <?php include 'webratik/blog/section.html';?>
+    <?php include 'webratik/read/section.html';?>
 
     <?php include 'webratik/footer-state.html'; ?>
     <?php include 'webratik/footer.html'; ?>
