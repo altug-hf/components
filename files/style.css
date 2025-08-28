@@ -1022,6 +1022,14 @@
     --tw-leading: calc(var(--spacing) * 10);
     line-height: calc(var(--spacing) * 10);
   }
+  .leading-12 {
+    --tw-leading: calc(var(--spacing) * 12);
+    line-height: calc(var(--spacing) * 12);
+  }
+  .leading-14 {
+    --tw-leading: calc(var(--spacing) * 14);
+    line-height: calc(var(--spacing) * 14);
+  }
   .leading-24 {
     --tw-leading: calc(var(--spacing) * 24);
     line-height: calc(var(--spacing) * 24);
@@ -1387,19 +1395,9 @@
       bottom: calc(var(--spacing) * -4);
     }
   }
-  .md\:mt-0 {
-    @media (width >= 48rem) {
-      margin-top: calc(var(--spacing) * 0);
-    }
-  }
   .md\:mt-3 {
     @media (width >= 48rem) {
       margin-top: calc(var(--spacing) * 3);
-    }
-  }
-  .md\:mt-4 {
-    @media (width >= 48rem) {
-      margin-top: calc(var(--spacing) * 4);
     }
   }
   .md\:mt-6 {
@@ -1699,6 +1697,11 @@
       width: calc(var(--spacing) * 12);
     }
   }
+  .lg\:w-80 {
+    @media (width >= 64rem) {
+      width: calc(var(--spacing) * 80);
+    }
+  }
   .lg\:w-\[420px\] {
     @media (width >= 64rem) {
       width: 420px;
@@ -1853,6 +1856,18 @@
       line-height: var(--tw-leading, var(--text-xs--line-height));
     }
   }
+  .lg\:leading-14 {
+    @media (width >= 64rem) {
+      --tw-leading: calc(var(--spacing) * 14);
+      line-height: calc(var(--spacing) * 14);
+    }
+  }
+  .lg\:leading-24 {
+    @media (width >= 64rem) {
+      --tw-leading: calc(var(--spacing) * 24);
+      line-height: calc(var(--spacing) * 24);
+    }
+  }
   .xl\:-right-16 {
     @media (width >= 80rem) {
       right: calc(var(--spacing) * -16);
@@ -1866,16 +1881,6 @@
   .xl\:mt-4 {
     @media (width >= 80rem) {
       margin-top: calc(var(--spacing) * 4);
-    }
-  }
-  .xl\:mt-12 {
-    @media (width >= 80rem) {
-      margin-top: calc(var(--spacing) * 12);
-    }
-  }
-  .xl\:mt-16 {
-    @media (width >= 80rem) {
-      margin-top: calc(var(--spacing) * 16);
     }
   }
   .xl\:block {
@@ -2015,6 +2020,12 @@
     @media (width >= 80rem) {
       font-size: var(--text-sm);
       line-height: var(--tw-leading, var(--text-sm--line-height));
+    }
+  }
+  .xl\:leading-24 {
+    @media (width >= 80rem) {
+      --tw-leading: calc(var(--spacing) * 24);
+      line-height: calc(var(--spacing) * 24);
     }
   }
   .\32 xl\:mt-12 {
