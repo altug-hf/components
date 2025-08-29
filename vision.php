@@ -30,10 +30,10 @@
 
     <?php include 'webratik/header-2.html'; ?>
 
-    <?php include 'webratik/vision/about-section-1.html'; ?>
-    <?php include 'webratik/vision/about-section-2.html'; ?>
-    <?php include 'webratik/vision/about-section-3.html'; ?>
-    <?php include 'webratik/vision/about-section-4.html'; ?>
+    <?php include 'webratik/vision/section-1.html'; ?>
+    <?php include 'webratik/vision/section-2.html'; ?>
+    <?php include 'webratik/vision/section-3.html'; ?>
+    <?php include 'webratik/vision/section-4.html'; ?>
 
     <?php include 'webratik/vision/products-slider.html'; ?>
 
