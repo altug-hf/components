@@ -31,13 +31,7 @@
     <?php include 'webratik/header-2.html'; ?>
 
     <?php include 'webratik/vision/section-1.html'; ?>
-    <?php include 'webratik/vision/section-2.html'; ?>
-    <?php include 'webratik/vision/section-3.html'; ?>
-    <?php include 'webratik/vision/section-4.html'; ?>
-
-    <?php include 'webratik/vision/products-slider.html'; ?>
-
-    <?php include 'webratik/vision/company-information.html'; ?>
+    <?php include 'webratik/vision/section.html'; ?>
 
     <?php include 'webratik/footer-state.html'; ?>
     <?php include 'webratik/footer.html'; ?>

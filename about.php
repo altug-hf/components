@@ -30,14 +30,8 @@
 
     <?php include 'webratik/header-2.html'; ?>
 
-    <?php include 'webratik/about/about-section-1.html'; ?>
-    <?php include 'webratik/about/about-section-2.html'; ?>
-    <?php include 'webratik/about/about-section-3.html'; ?>
-    <?php include 'webratik/about/about-section-4.html'; ?>
-
-    <?php include 'webratik/about/products-slider.html'; ?>
-
-    <?php include 'webratik/about/company-information.html'; ?>
+    <?php include 'webratik/about/section-1.html'; ?>
+    <?php include 'webratik/about/section.html'; ?>
 
     <?php include 'webratik/footer-state.html'; ?>
     <?php include 'webratik/footer.html'; ?>
